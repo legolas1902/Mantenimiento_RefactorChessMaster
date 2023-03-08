@@ -37,7 +37,7 @@ public class ChessGameBoard extends JPanel implements Serializable{
      * @param col the column to check
      * @return boolean true if they are valid, false otherwise
      */
-    private boolean validateCoordinates( int row, int col ){
+    boolean validateCoordinates( int row, int col ){
         return chessCells.length > 0 && chessCells[0].length > 0 &&
             row < chessCells.length && col < chessCells[0].length
             && row >= 0 && col >= 0;

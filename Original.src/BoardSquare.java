@@ -1,3 +1,4 @@
+// Patron de diseño Adapter
 import java.io.Serializable;
 
 import javax.swing.JLabel;
